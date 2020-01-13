@@ -60,7 +60,7 @@ function ticToc() {
     currentPhotoIdx =
       currentPhotoIdx === photos.length - 1 ? 0 : currentPhotoIdx + 1;
     ticToc();
-  }, 3000);
+  }, 2000);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
