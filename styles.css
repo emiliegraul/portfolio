@@ -17,7 +17,7 @@
 
 :root {
   --intro-color: #dec2a9;
-  --cs-color: #dea9a9;
+  --cs-color: #ca9696;
   --hr-color: #a9c5de;
 }
 
@@ -76,7 +76,7 @@ h1 {
   background-image: linear-gradient(
     to bottom left,
     var(--intro-color),
-    #ded8cf
+    #eaad81
   );
 }
 
