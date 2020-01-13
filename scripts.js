@@ -1,10 +1,14 @@
 console.log("hello world");
 
 const photos = [
-  "https://images.pexels.com/photos/2147486/pexels-photo-2147486.jpeg",
-  "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/homepage/expeditions/travel-promo-expedition-cruises.adapt.470.1.jpg",
-  "https://media.gadventures.com/media-server/cache/6f/83/6f830b61d0e25181103d8fdcb41f33d5.jpg",
-  "https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66"
+  "images/IMG_2489.jpg",
+  "images/IMG_3450.jpg",
+  "images/IMG_3493.jpg",
+  "images/IMG_3832.jpg",
+  "images/IMG_4193.jpg",
+  "images/IMG_4949.jpg",
+  "images/IMG_5102.jpg",
+  "images/IMG_5296.jpg"
 ];
 
 const photosWrapperEl = document.querySelector(".rtw-photos-wrapper");
