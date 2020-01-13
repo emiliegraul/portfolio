@@ -51,6 +51,12 @@ function ticToc() {
   }, 3000);
 }
 
+function animateTitleText() {
+  const heroEl = document.querySelector('#hero')
+  heroEl.style.opacity = ""
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   ticToc();
+  animateTitleText();
 });

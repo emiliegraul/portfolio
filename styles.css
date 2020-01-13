@@ -17,6 +17,7 @@ h1 {
   margin: 35px auto 0 auto;
   text-align: center;
   width: 50%;
+  transition: opacity 5s ease;
 }
 
 .title {
