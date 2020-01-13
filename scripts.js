@@ -4,18 +4,6 @@ const photos = [
   "https://images.pexels.com/photos/2147486/pexels-photo-2147486.jpeg",
   "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/homepage/expeditions/travel-promo-expedition-cruises.adapt.470.1.jpg",
   "https://media.gadventures.com/media-server/cache/6f/83/6f830b61d0e25181103d8fdcb41f33d5.jpg",
-  "https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66",
-  "https://images.pexels.com/photos/2147486/pexels-photo-2147486.jpeg",
-  "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/homepage/expeditions/travel-promo-expedition-cruises.adapt.470.1.jpg",
-  "https://media.gadventures.com/media-server/cache/6f/83/6f830b61d0e25181103d8fdcb41f33d5.jpg",
-  "https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66",
-  "https://images.pexels.com/photos/2147486/pexels-photo-2147486.jpeg",
-  "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/homepage/expeditions/travel-promo-expedition-cruises.adapt.470.1.jpg",
-  "https://media.gadventures.com/media-server/cache/6f/83/6f830b61d0e25181103d8fdcb41f33d5.jpg",
-  "https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66",
-  "https://images.pexels.com/photos/2147486/pexels-photo-2147486.jpeg",
-  "https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/homepage/expeditions/travel-promo-expedition-cruises.adapt.470.1.jpg",
-  "https://media.gadventures.com/media-server/cache/6f/83/6f830b61d0e25181103d8fdcb41f33d5.jpg",
   "https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66"
 ];
 
@@ -60,7 +48,7 @@ function ticToc() {
     currentPhotoIdx =
       currentPhotoIdx === photos.length - 1 ? 0 : currentPhotoIdx + 1;
     ticToc();
-  }, 2000);
+  }, 3000);
 }
 
 document.addEventListener("DOMContentLoaded", () => {

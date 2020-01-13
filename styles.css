@@ -74,9 +74,8 @@ h1 {
 
 .content {
   margin: 0 auto;
-  width: 80%;
-  /*background: rgba(255, 255, 255, 0.3);*/
-  padding: 50px 0;
+  width: 75%;
+  padding: 70px 0;
 }
 
 .intro .content {
@@ -110,10 +109,12 @@ img {
 .image.right {
   float: right;
   margin-left: 25px;
+  width: 35%;
 }
 
 .image img {
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .image p {
@@ -171,7 +172,6 @@ img {
 .app-box:hover {
   width: 85px;
   height: 85px;
-  /*margin-top: -5px;*/
 }
 
 .rtw-photos-wrapper {
@@ -179,10 +179,11 @@ img {
   height: 400px;
   float: right;
   margin-left: 70px;
+  position: relative;
 }
 
 .rtw-photo {
-  width: 200px;
+  width: 100%;
   position: absolute;
   transition: all 500ms ease;
 }
