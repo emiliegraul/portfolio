@@ -52,11 +52,21 @@ function ticToc() {
 }
 
 function animateTitleText() {
-  const heroEl = document.querySelector('#hero')
-  heroEl.style.opacity = ""
+  const heroEl = document.querySelector("#hero");
+  heroEl.style.opacity = "";
+}
+
+function animateAppIcons() {
+  const iconEls = document.querySelectorAll(".app-box");
+  iconEls.forEach((el, i) => {
+    setTimeout(() => {
+      el.classList.add("float");
+    }, 500 * i);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   ticToc();
   animateTitleText();
+  animateAppIcons();
 });
