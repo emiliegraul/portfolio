@@ -66,7 +66,9 @@ function animateAppIcons() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  ticToc();
-  animateTitleText();
-  animateAppIcons();
+  setTimeout(() => {
+    ticToc();
+    animateTitleText();
+    animateAppIcons();
+  }, 0); // for some reason without this, the JS pulls the styles from the DOM too fast in Safari so there is no transition (like it was never opacity 0)
 });
