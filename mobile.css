@@ -51,6 +51,7 @@
     float: none;
     margin-left: 0;
     width: 100%;
+    display: none;
   }
 
   .rtw-photos-wrapper {
