@@ -36,7 +36,9 @@ h1 {
 
 .title {
   font-size: 30px;
-  color: var(--intro-color);
+  border: 1px #c39d7b solid;
+  color: #c39d7b;
+  padding: 10px 15px;
 }
 
 .nav {
@@ -68,7 +70,7 @@ h1 {
 }
 
 .section {
-  margin: 50px 20px;
+  margin: 50px 40px;
 }
 
 .section.intro {
