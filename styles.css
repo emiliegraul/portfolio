@@ -75,11 +75,12 @@ h1 {
 
 .section.intro {
   margin-top: 17%;
-  background-image: linear-gradient(
-    to bottom left,
-    var(--intro-color),
-    #eaad81
-  );
+  background-image: linear-gradient(to bottom left, #57928f, #93bf85);
+}
+
+.section.hulburd-design {
+  /* how could you get around this */
+  background-image: linear-gradient(to bottom left, #5195b7, #91e9e2);
 }
 
 .section.colour-studio {
@@ -134,6 +135,12 @@ img {
 .image.right {
   float: right;
   margin-left: 24px;
+  width: 30%;
+}
+
+.image.left {
+  float: left;
+  margin-right: 24px;
   width: 30%;
 }
 
